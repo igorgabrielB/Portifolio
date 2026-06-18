@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://igorgabrielB.github.io/portifolio",
+  "homepage": "https://igorgabrielB.github.io/Portifolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

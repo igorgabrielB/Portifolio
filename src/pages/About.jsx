@@ -73,7 +73,7 @@ export default function About() {
               {/* Photo Container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-500/50 shadow-2xl shadow-primary-700/50 hover:shadow-3xl hover:shadow-primary-600/75 transition-all duration-300">
                 <img 
-                  src="/assets/profile.jpg" 
+                  src="assets/profile.jpg" 
                   alt="KostaDev - Foto profissional" 
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center 35%' }}
