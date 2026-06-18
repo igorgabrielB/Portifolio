@@ -36,7 +36,7 @@ export default function Projects() {
         'Dashboard de gerenciamento',
       ],
       github: 'https://github.com/igorgabrielB/melcampos',
-      demo: '#',
+      demo: 'https://igorgabrielb.github.io/melcampos/',
       featured: true,
     },
   ]
