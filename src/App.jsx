@@ -24,19 +24,19 @@ function App() {
       <Header onNavClick={scrollToSection} activeSection={activeSection} />
       
       <main className="overflow-hidden relative">
-        <section id="home">
+        <section id="home" className="scroll-mt-24 sm:scroll-mt-32">
           <Hero onCTAClick={() => scrollToSection('projetos')} />
         </section>
         
-        <section id="sobre">
+        <section id="sobre" className="scroll-mt-24 sm:scroll-mt-32">
           <About />
         </section>
         
-        <section id="projetos">
+        <section id="projetos" className="scroll-mt-24 sm:scroll-mt-32">
           <Projects />
         </section>
         
-        <section id="contato">
+        <section id="contato" className="scroll-mt-24 sm:scroll-mt-32">
           <Contact />
         </section>
       </main>

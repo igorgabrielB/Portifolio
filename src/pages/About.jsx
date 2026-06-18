@@ -71,7 +71,7 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-purple rounded-full blur-2xl opacity-40 -z-10 animate-pulse"></div>
               
               {/* Photo Container */}
-              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-500/50 shadow-2xl shadow-primary-700/50 hover:shadow-3xl hover:shadow-primary-600/75 transition-all duration-300">
+              <div className="relative w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-primary-500/50 shadow-2xl shadow-primary-700/50 hover:shadow-3xl hover:shadow-primary-600/75 transition-all duration-300">
                 <img 
                   src="assets/profile.jpg" 
                   alt="KostaDev - Foto profissional" 

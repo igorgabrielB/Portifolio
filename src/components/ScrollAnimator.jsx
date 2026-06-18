@@ -30,11 +30,11 @@ export default function ScrollAnimator() {
     <div className="pointer-events-none fixed inset-0 -z-20 overflow-hidden">
       <div
         style={glow1Style}
-        className="absolute top-0 left-0 w-[42rem] h-[42rem] rounded-full bg-[radial-gradient(circle,_rgba(124,58,237,0.28),_transparent_20%)] blur-3xl"
+        className="absolute top-0 left-0 w-[28rem] h-[28rem] sm:w-[34rem] sm:h-[34rem] md:w-[42rem] md:h-[42rem] rounded-full bg-[radial-gradient(circle,_rgba(124,58,237,0.28),_transparent_20%)] blur-3xl"
       />
       <div
         style={glow2Style}
-        className="absolute bottom-0 right-0 w-[36rem] h-[36rem] rounded-full bg-[radial-gradient(circle,_rgba(168,85,247,0.24),_transparent_25%)] blur-3xl"
+        className="absolute bottom-0 right-0 w-[24rem] h-[24rem] sm:w-[30rem] sm:h-[30rem] md:w-[36rem] md:h-[36rem] rounded-full bg-[radial-gradient(circle,_rgba(168,85,247,0.24),_transparent_25%)] blur-3xl"
       />
       <div
         style={{ opacity: lineOpacity }}

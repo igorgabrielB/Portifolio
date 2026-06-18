@@ -80,7 +80,7 @@ export default function Projects() {
             <motion.div key={project.id} variants={itemVariants}>
               <Card className="h-full flex flex-col overflow-hidden hover:scale-105 transition-transform duration-300">
                 {/* Project Image/Icon */}
-                <div className="w-full h-48 bg-gradient-to-br from-primary-600/20 to-primary-700/20 flex items-center justify-center mb-4 rounded-lg">
+                <div className="w-full h-40 sm:h-44 md:h-48 bg-gradient-to-br from-primary-600/20 to-primary-700/20 flex items-center justify-center mb-4 rounded-lg">
                   <project.icon className="text-7xl text-primary-400" />
                 </div>
 
@@ -122,7 +122,7 @@ export default function Projects() {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex gap-3 pt-4 border-t border-primary-700/30">
+                <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-primary-700/30">
                   <Button 
                     variant="secondary" 
                     size="sm"
